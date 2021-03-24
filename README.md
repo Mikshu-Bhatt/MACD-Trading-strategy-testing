@@ -20,4 +20,4 @@ Finally we are calculating the amount of profit you would make if you follow thi
 
 You can not short sell.
 
-You need to buy and sell same number of shares all the time.
+
