@@ -16,7 +16,7 @@ now we are plotting buy and sell decisions on Adj Close price line to visualize 
 
 Finally we are calculating the amount of profit you would make if you follow this strategy considering you are buying and selling 1 share at at time.
 
-# we are making few assumptions here
+# we are making an assumption here
 
 You can not short sell.
 
