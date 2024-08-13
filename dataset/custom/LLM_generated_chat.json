@@ -1,0 +1,1186 @@
+{
+    "chats 1": {
+        "context": [
+            "Chatbot: Hi there! What brings you here today?",
+            "User: I'm looking to buy a bike and need some help.",
+            "Chatbot: Great! Let's start by exploring our Home Page. What's your budget?",
+            "User: Around 12 lakh rupees.",
+            "Chatbot: Let's proceed to the Bike Models Overview. Here are some bike models: Model A, Model B.",
+            "User: Can you show me the details of Model A?",
+            "Chatbot: Sure, here are the details of Model A."
+
+        ],
+        "nodes_visited": [
+            "Home Page",
+            "Bike Models Overview",
+            "Specific Bike Model Page"
+
+        ]
+    },
+    "chats 2": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I want to customize a bike. Show me some models first.",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model X, Model Y.",
+            "User: I like Model X. Can I customize it?",
+            "Chatbot: Yes, let's proceed to the Build & Customize section for Model X."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Build & Customize"
+        ]
+    },
+    "chats 3": {
+        "context": [
+            "Chatbot: Hi there! How can I help you today?",
+            "User: I'm interested in comparing two models, Model P and Model Q.",
+            "Chatbot: Sure, let's go to the Compare Models section. Here's a comparison of Model P and Model Q."
+        ],
+        "nodes_visited": [
+            "Compare Models"
+        ]
+    },
+    "chats 4": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I need information on financing options for your bikes.",
+            "Chatbot: Sure, let's go to the Check Financing Options section. Here are the financing options for our bikes."
+        ],
+        "nodes_visited": [
+            "Check Financing Options" 
+        ]
+    },
+    "chats 5": {
+        "context": [
+            "Chatbot: Hello! How can I help you today?",
+            "User: I want to see the customer reviews for Model B.",
+            "Chatbot: Sure, let's go to the Customer Reviews section. Here are the customer reviews for Model B.",
+            "Chatbot: Would you like to see reviews for any other models?"
+        ],
+        "nodes_visited": [
+            "Customer Reviews"
+        ]
+    },
+    "chats 6": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I need to find a dealer near me.",
+            "Chatbot: Sure, let's go to the Find a Dealer section. Here are the dealers near you."
+        ],
+        "nodes_visited": [
+            "Find a Dealer"
+        ]
+    },
+    "chats 7": {
+        "context": [
+            "Chatbot: Hi! How can I help you today?",
+            "User: Are there any promotions or offers on bikes?",
+            "Chatbot: Let's go to the Promotions & Offers section. Here are the current promotions and offers."
+        ],
+        "nodes_visited": [
+            "Promotions & Offers"
+        ]
+    },
+    "chats 8": {
+        "context": [
+            "Chatbot: Hello! How can I assist you today?",
+            "User: I need some help with my account registration.",
+            "Chatbot: Let's go to the User Account Login/Registration section. Here is the registration form."
+        ],
+        "nodes_visited": [
+            "User Account Login/Registration"
+        ]
+    },
+    "chats 9": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I'm looking for the latest blog updates.",
+            "Chatbot: Let's go to the Blog/News/Updates section. Here are the latest blog posts and updates."
+        ],
+        "nodes_visited": [
+            "Blog/News/Updates"
+        ]
+    },
+    "chats 10": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I want to learn about the service and maintenance options.",
+            "Chatbot: Let's go to the Service & Maintenance Info section. Here are the maintenance options for Model C."
+        ],
+        "nodes_visited": [
+            "Service & Maintenance Info"
+        ]
+    }
+,
+    "chat1": {
+            "context": [
+                "Chatbot: Hi there! What brings you here today?",
+                "User: I'm interested in buying a bike. Can you help me?",
+                "Chatbot: Sure! Let's start by exploring our Home Page. What are you looking for?",
+                "User: I want to see the upcoming biking events.",
+                "Chatbot: Let's check out the Events & Community section. Here are some exciting events.",
+                "User: Thanks! Can you also show me the bike models overview?",
+                "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+                "User: I like Model A. Can I customize it?",
+                "Chatbot: Absolutely! Let's proceed to the Build & Customize section for Model A.",
+                "User: That's great! How about checking financing options for it?",
+                "Chatbot: Sure, let's explore the Check Financing Options.",
+                "User: I'm ready to make a purchase now. Can I find a dealer?",
+                "Chatbot: Let's find a dealer for Model A near you. Here are some options.",
+                "User: Perfect! I'd like to proceed with a test ride. How can I schedule one?",
+                "Chatbot: Let's schedule a Test Ride for you. Here are the available slots.",
+                "User: I'm all set! Can I request a quote now?",
+                "Chatbot: Certainly! Requesting a quote for Model A. Would you like to see the bike insurance information?",
+                "User: Yes, please.",
+                "Chatbot: Here is the bike insurance information for Model A."
+            ],
+            "nodes_visited": [
+                "Home Page",
+                "Events & Community",
+                "Bike Models Overview",
+                "Build & Customize",
+                "Check Financing Options",
+                "Find a Dealer",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Bike Insurance Information",
+                "End of Journey"
+            ]
+        },
+        "chat2": {
+            "context": [
+                "Chatbot: Hi there! What brings you here today?",
+                "User: I'm exploring bike options. Show me some models.",
+                "Chatbot: Let's start with the Bike Models Overview. Here are some options: Model X, Model Y.",
+                "User: I'm interested in Model X. Can you show me its details?",
+                "Chatbot: Here are the details of Model X. Would you like to compare it with another model?",
+                "User: Yes, compare Model X with Model Y.",
+                "Chatbot: Comparing Model X and Model Y. How about checking out financing options?",
+                "User: Yes, I want to explore financing options for Model X.",
+                "Chatbot: Let's explore the Check Financing Options for Model X.",
+                "User: Great! Now, can I request a quote for Model X?",
+                "Chatbot: Requesting a quote for Model X. Would you like to schedule a test ride?",
+                "User: Yes, I'd like to schedule a Test Ride.",
+                "Chatbot: Scheduling a Test Ride for Model X. How about checking out promotions and offers?",
+                "User: Yes, I'm interested in current promotions.",
+                "Chatbot: Here are the latest promotions available for Model X.",
+                "User: That's all I needed. Thank you!"
+            ],
+            "nodes_visited": [
+                "Bike Models Overview",
+                "Specific Bike Model Page",
+                "Compare Models",
+                "Check Financing Options",
+                "Request a Quote",
+                "Schedule a Test Ride",
+                "Promotions & Offers",
+                "End of Journey"
+            ]
+        },
+        "chat3": {
+            "context": [
+                "Chatbot: Hello! What can I help you with today?",
+                "User: I'm researching bikes. Show me some options.",
+                "Chatbot: Let's start with the Bike Models Overview. Here are some models: Model P, Model Q.",
+                "User: I'm interested in Model P. Can you show me its specifications?",
+                "Chatbot: Here are the details of Model P. Would you like to read customer reviews?",
+                "User: Yes, I'd like to see the Customer Reviews for Model P.",
+                "Chatbot: Showing customer reviews for Model P. How about checking financing options?",
+                "User: Yes, I want to explore financing options for Model P.",
+                "Chatbot: Exploring Check Financing Options for Model P.",
+                "User: Okay! Now, I want to schedule a Test Ride for Model P.",
+                "Chatbot: Scheduling a Test Ride. Would you like to request a quote as well?",
+                "User: Yes, please. Request a quote for Model P.",
+                "Chatbot: Requesting a quote for Model P. Can I assist you with accessories or maintenance info?",
+                "User: Yes, show me the Accessory Shop.",
+                "Chatbot: Here are the latest accessories available for Model P.",
+                "User: Thanks! This has been really helpful."
+            ],
+            "nodes_visited": [
+                "Bike Models Overview",
+                "Specific Bike Model Page",
+                "Customer Reviews",
+                "Check Financing Options",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Accessory Shop",
+                "End of Journey"
+            ]
+        },
+        "chat4": {
+            "context": [
+                "Chatbot: Hi there! What brings you here today?",
+                "User: I'm interested in buying a bike. Can you help me?",
+                "Chatbot: Sure! Let's start by exploring our Home Page. What are you looking for?",
+                "User: I want to see the upcoming biking events.",
+                "Chatbot: Let's check out the Events & Community section. Here are some exciting events.",
+                "User: Thanks! Can you also show me the bike models overview?",
+                "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+                "User: I like Model A. Can I customize it?",
+                "Chatbot: Absolutely! Let's proceed to the Build & Customize section for Model A.",
+                "User: That's great! How about checking financing options for it?",
+                "Chatbot: Sure, let's explore the Check Financing Options.",
+                "User: I'm ready to make a purchase now. Can I find a dealer?",
+                "Chatbot: Let's find a dealer for Model A near you. Here are some options.",
+                "User: Perfect! I'd like to proceed with a test ride. How can I schedule one?",
+                "Chatbot: Let's schedule a Test Ride for you. Here are the available slots.",
+                "User: I'm all set! Can I request a quote now?",
+                "Chatbot: Certainly! Requesting a quote for Model A. Would you like to see the bike insurance information?",
+                "User: Yes, please.",
+                "Chatbot: Here is the bike insurance information for Model A."
+            ],
+            "nodes_visited": [
+                "Home Page",
+                "Events & Community",
+                "Bike Models Overview",
+                "Build & Customize",
+                "Check Financing Options",
+                "Find a Dealer",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Bike Insurance Information",
+                "End of Journey"
+            ]
+        },
+        "chat5": {
+            "context": [
+                "Chatbot: Hi there! How can I assist you today?",
+                "User: I'm exploring bike options. Show me some models.",
+                "Chatbot: Let's start with the Bike Models Overview. Here are some options: Model X, Model Y.",
+                "User: I'm interested in Model X. Can you show me its details?",
+                "Chatbot: Here are the details of Model X. Would you like to compare it with another model?",
+                "User: Yes, compare Model X with Model Y.",
+                "Chatbot: Comparing Model X and Model Y. How about checking out financing options?",
+                "User: Yes, I want to explore financing options for Model X.",
+                "Chatbot: Let's explore the Check Financing Options for Model X.",
+                "User: Great! Now, can I request a quote for Model X?",
+                "Chatbot: Requesting a quote for Model X. Would you like to schedule a test ride?",
+                "User: Yes, I'd like to schedule a Test Ride.",
+                "Chatbot: Scheduling a Test Ride for Model X. How about checking out promotions and offers?",
+                "User: Yes, I'm interested in current promotions.",
+                "Chatbot: Here are the latest promotions available for Model X.",
+                "User: That's all I needed. Thank you!"
+            ],
+            "nodes_visited": [
+                "Bike Models Overview",
+                "Specific Bike Model Page",
+                "Compare Models",
+                "Check Financing Options",
+                "Request a Quote",
+                "Schedule a Test Ride",
+                "Promotions & Offers",
+                "End of Journey"
+            ]
+        },
+        "chat6": {
+            "context": [
+                "Chatbot: Hello! What can I help you with today?",
+                "User: I'm researching bikes. Show me some options.",
+                "Chatbot: Let's start with the Bike Models Overview. Here are some models: Model P, Model Q.",
+                "User: I'm interested in Model P. Can you show me its specifications?",
+                "Chatbot: Here are the details of Model P. Would you like to read customer reviews?",
+                "User: Yes, I'd like to see the Customer Reviews for Model P.",
+                "Chatbot: Showing customer reviews for Model P. How about checking financing options?",
+                "User: Yes, I want to explore financing options for Model P.",
+                "Chatbot: Exploring Check Financing Options for Model P.",
+                "User: Okay! Now, I want to schedule a Test Ride for Model P.",
+                "Chatbot: Scheduling a Test Ride. Would you like to request a quote as well?",
+                "User: Yes, please. Request a quote for Model P.",
+                "Chatbot: Requesting a quote for Model P. Can I assist you with accessories or maintenance info?",
+                "User: Yes, show me the Accessory Shop.",
+                "Chatbot: Here are the latest accessories available for Model P.",
+                "User: Thanks! This has been really helpful."
+            ],
+            "nodes_visited": [
+                "Bike Models Overview",
+                "Specific Bike Model Page",
+                "Customer Reviews",
+                "Check Financing Options",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Accessory Shop",
+                "End of Journey"
+            ]
+        },
+        "chat7": {
+            "context": [
+                "Chatbot: Hi there! What brings you here today?",
+                "User: I'm interested in buying a bike. Can you help me?",
+                "Chatbot: Sure! Let's start by exploring our Home Page. What are you looking for?",
+                "User: I want to see the upcoming biking events.",
+                "Chatbot: Let's check out the Events & Community section. Here are some exciting events.",
+                "User: Thanks! Can you also show me the bike models overview?",
+                "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+                "User: I like Model A. Can I customize it?",
+                "Chatbot: Absolutely! Let's proceed to the Build & Customize section for Model A.",
+                "User: That's great! How about checking financing options for it?",
+                "Chatbot: Sure, let's explore the Check Financing Options.",
+                "User: I'm ready to make a purchase now. Can I find a dealer?",
+                "Chatbot: Let's find a dealer for Model A near you. Here are some options.",
+                "User: Perfect! I'd like to proceed with a test ride. How can I schedule one?",
+                "Chatbot: Let's schedule a Test Ride for you. Here are the available slots.",
+                "User: I'm all set! Can I request a quote now?",
+                "Chatbot: Certainly! Requesting a quote for Model A. Would you like to see the bike insurance information?",
+                "User: Yes, please.",
+                "Chatbot: Here is the bike insurance information for Model A."
+            ],
+            "nodes_visited": [
+                "Home Page",
+                "Events & Community",
+                "Bike Models Overview",
+                "Build & Customize",
+                "Check Financing Options",
+                "Find a Dealer",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Bike Insurance Information",
+                "End of Journey"
+            ]
+        },
+        "chat8": {
+            "context": [
+                "Chatbot: Hi there! How can I assist you today?",
+                "User: I'm exploring bike options. Show me some models.",
+                "Chatbot: Let's start with the Bike Models Overview. Here are some options: Model X, Model Y.",
+                "User: I'm interested in Model X. Can you show me its details?",
+                "Chatbot: Here are the details of Model X. Would you like to compare it with another model?",
+                "User: Yes, compare Model X with Model Y.",
+                "Chatbot: Comparing Model X and Model Y. How about checking out financing options?",
+                "User: Yes, I want to explore financing options for Model X.",
+                "Chatbot: Let's explore the Check Financing Options for Model X.",
+                "User: Great! Now, can I request a quote for Model X?",
+                "Chatbot: Requesting a quote for Model X. Would you like to schedule a test ride?",
+                "User: Yes, I'd like to schedule a Test Ride.",
+                "Chatbot: Scheduling a Test Ride for Model X. How about checking out promotions and offers?",
+                "User: Yes, I'm interested in current promotions.",
+                "Chatbot: Here are the latest promotions available for Model X.",
+                "User: That's all I needed. Thank you!"
+            ],
+            "nodes_visited": [
+                "Bike Models Overview",
+                "Specific Bike Model Page",
+                "Compare Models",
+                "Check Financing Options",
+                "Request a Quote",
+                "Schedule a Test Ride",
+                "Promotions & Offers",
+                "End of Journey"
+            ]
+        },
+        "chat9": {
+            "context": [
+                "Chatbot: Hello! What can I help you with today?",
+                "User: I'm researching bikes. Show me some options.",
+                "Chatbot: Let's start with the Bike Models Overview. Here are some models: Model P, Model Q.",
+                "User: I'm interested in Model P. Can you show me its specifications?",
+                "Chatbot: Here are the details of Model P. Would you like to read customer reviews?",
+                "User: Yes, I'd like to see the Customer Reviews for Model P.",
+                "Chatbot: Showing customer reviews for Model P. How about checking financing options?",
+                "User: Yes, I want to explore financing options for Model P.",
+                "Chatbot: Exploring Check Financing Options for Model P.",
+                "User: Okay! Now, I want to schedule a Test Ride for Model P.",
+                "Chatbot: Scheduling a Test Ride. Would you like to request a quote as well?",
+                "User: Yes, please. Request a quote for Model P.",
+                "Chatbot: Requesting a quote for Model P. Can I assist you with accessories or maintenance info?",
+                "User: Yes, show me the Accessory Shop.",
+                "Chatbot: Here are the latest accessories available for Model P.",
+                "User: Thanks! This has been really helpful."
+            ],
+            "nodes_visited": [
+                "Bike Models Overview",
+                "Specific Bike Model Page",
+                "Customer Reviews",
+                "Check Financing Options",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Accessory Shop",
+                "End of Journey"
+            ]
+        },
+        "chat10": {
+            "context": [
+                "Chatbot: Hi there! What brings you here today?",
+                "User: I'm interested in buying a bike. Can you help me?",
+                "Chatbot: Sure! Let's start by exploring our Home Page. What are you looking for?",
+                "User: I want to see the upcoming biking events.",
+                "Chatbot: Let's check out the Events & Community section. Here are some exciting events.",
+                "User: Thanks! Can you also show me the bike models overview?",
+                "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+                "User: I like Model A. Can I customize it?",
+                "Chatbot: Absolutely! Let's proceed to the Build & Customize section for Model A.",
+                "User: That's great! How about checking financing options for it?",
+                "Chatbot: Sure, let's explore the Check Financing Options.",
+                "User: I'm ready to make a purchase now. Can I find a dealer?",
+                "Chatbot: Let's find a dealer for Model A near you. Here are some options.",
+                "User: Perfect! I'd like to proceed with a test ride. How can I schedule one?",
+                "Chatbot: Let's schedule a Test Ride for you. Here are the available slots.",
+                "User: I'm all set! Can I request a quote now?",
+                "Chatbot: Certainly! Requesting a quote for Model A. Would you like to see the bike insurance information?",
+                "User: Yes, please.",
+                "Chatbot: Here is the bike insurance information for Model A."
+            ],
+            "nodes_visited": [
+                "Home Page",
+                "Events & Community",
+                "Bike Models Overview",
+                "Build & Customize",
+                "Check Financing Options",
+                "Find a Dealer",
+                "Schedule a Test Ride",
+                "Request a Quote",
+                "Bike Insurance Information",
+                "End of Journey"
+            ]
+        }
+,
+    "chats_long 1": {
+        "context": [
+            "Chatbot: Hi there! How can I help you today?",
+            "User: I'm interested in buying a bike. Can you help me choose one?",
+            "Chatbot: Of course! Let's start at our Home Page. What's your budget?",
+            "User: My budget is around 10 lakh rupees.",
+            "Chatbot: Let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+            "User: Show me the details of Model B.",
+            "Chatbot: Here are the details of Model B.",
+            "User: Can I customize Model B?",
+            "Chatbot: Yes, let's move to the Build & Customize section.",
+            "User: I'd like to schedule a test ride for Model B.",
+            "Chatbot: Scheduling a test ride for Model B.",
+            "User: Also, can you show me financing options?",
+            "Chatbot: Here are the financing options for Model B.",
+            "User: Great, thanks for the information!"
+        ],
+        "nodes_visited": [
+            "Home Page",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Schedule a Test Ride",
+            "Check Financing Options",
+            "End of Journey"
+        ]
+    },
+    "chats_long 2": {
+        "context": [
+            "Chatbot: Hello! How can I assist you today?",
+            "User: I'm interested in comparing two models, Model X and Model Y.",
+            "Chatbot: Sure, let's go to the Compare Models section. Here's a comparison between Model X and Model Y.",
+            "User: Thanks! Can I see customer reviews for Model X?",
+            "Chatbot: Sure, here are the customer reviews for Model X.",
+            "User: Also, can you show me some accessories for Model X?",
+            "Chatbot: Here are the accessories for Model X.",
+            "Chatbot: Would you like to check out the financing options for Model X?",
+            "User: Yes, show me the financing options.",
+            "Chatbot: Here are the financing options for Model X.",
+            "User: Thanks again!"
+        ],
+        "nodes_visited": [
+            "Compare Models",
+            "Customer Reviews",
+            "Accessory Shop",
+            "Check Financing Options",
+            "End of Journey"
+        ]
+    },
+    "chats_long 3": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I need to find a dealer near me.",
+            "Chatbot: Sure, let's go to the Find a Dealer section. Here are the dealers near you.",
+            "User: Thanks! Can I schedule a test ride with one of these dealers?",
+            "Chatbot: Scheduling a test ride for you.",
+            "User: Also, can you show me some promotions or offers?",
+            "Chatbot: Here are the current promotions and offers.",
+            "User: What about the latest blog updates?",
+            "Chatbot: Here are the latest blog posts and updates.",
+            "Chatbot: Is there anything else you need?",
+            "User: No, that's all for now."
+        ],
+        "nodes_visited": [
+            "Find a Dealer",
+            "Schedule a Test Ride",
+            "Promotions & Offers",
+            "Blog/News/Updates",
+            "End of Journey"
+        ]
+    },
+    "chats_long 4": {
+        "context": [
+            "Chatbot: Hello! How can I assist you today?",
+            "User: I need information on financing options for your bikes.",
+            "Chatbot: Sure, let's go to the Check Financing Options section. Here are the financing options for our bikes.",
+            "User: That's helpful. Can I also get details on bike insurance?",
+            "Chatbot: Here is the bike insurance information.",
+            "User: Can you also tell me about the service and maintenance options?",
+            "Chatbot: Let's go to the Service & Maintenance Info section. Here are the maintenance options.",
+            "Chatbot: Anything else you need?",
+            "User: No, that's all."
+        ],
+        "nodes_visited": [
+            "Check Financing Options",
+            "Bike Insurance Information",
+            "Service & Maintenance Info",
+            "End of Journey"
+        ]
+    },
+    "chats_long 5": {
+        "context": [
+            "Chatbot: Hi! How can I help you today?",
+            "User: I'm looking for the latest blog updates.",
+            "Chatbot: Let's go to the Blog/News/Updates section. Here are the latest blog posts and updates.",
+            "User: Thanks! Also, can you show me the events or community gatherings?",
+            "Chatbot: Here are the upcoming events and community gatherings.",
+            "User: What about some promotions or offers?",
+            "Chatbot: Here are the current promotions and offers.",
+            "Chatbot: Is there anything else you need?",
+            "User: No, that's all for now."
+        ],
+        "nodes_visited": [
+            "Blog/News/Updates",
+            "Events & Community",
+            "Promotions & Offers",
+            "End of Journey"
+        ]
+    },
+    "chats_long 6": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I'm having trouble logging into my account.",
+            "Chatbot: Let's go to the User Account Login/Registration section. Here is the login help.",
+            "User: Thank you! Can I also update my bike registration details?",
+            "Chatbot: Sure, here is the Bike Registration information.",
+            "User: Can I see the customer reviews for Model K?",
+            "Chatbot: Here are the customer reviews for Model K.",
+            "Chatbot: Anything else you need?",
+            "User: No, that's all for now."
+        ],
+        "nodes_visited": [
+            "User Account Login/Registration",
+            "Bike Registration",
+            "Customer Reviews",
+            "End of Journey"
+        ]
+    },
+    "chats_long 7": {
+        "context": [
+            "Chatbot: Hi! How can I help you today?",
+            "User: I want to see the customer reviews for Model B.",
+            "Chatbot: Sure, let's go to the Customer Reviews section. Here are the customer reviews for Model B.",
+            "User: Can I get more information on service and maintenance?",
+            "Chatbot: Let's go to the Service & Maintenance Info section. Here are the maintenance options for Model B.",
+            "User: Can you also show me some accessories for Model B?",
+            "Chatbot: Here are the accessories for Model B.",
+            "Chatbot: Anything else you need?",
+            "User: No, that's all."
+        ],
+        "nodes_visited": [
+            "Customer Reviews",
+            "Service & Maintenance Info",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    },
+    "chats_long 8": {
+        "context": [
+            "Chatbot: Hello! How can I help you today?",
+            "User: I need some guidance on buying a bike.",
+            "Chatbot: Sure! What's your budget?",
+            "User: My budget is around 10 lakh rupees.",
+            "Chatbot: Let's go to the Bike Models Overview. Here are some options: Model E, Model F.",
+            "User: Show me the details of Model E.",
+            "Chatbot: Here are the details of Model E.",
+            "User: Can I compare Model E with Model F?",
+            "Chatbot: Here is a comparison of Model E and Model F.",
+            "User: Thanks! Also, can you show me the nearby dealers?",
+            "Chatbot: Here are the dealers near you.",
+            "User: Can I also get financing options?",
+            "Chatbot: Here are the financing options for Model E.",
+            "User: Great, thanks for the information!"
+        ],
+        "nodes_visited": [
+            "Home Page",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Find a Dealer",
+            "Check Financing Options",
+            "End of Journey"
+        ]
+    },
+    "chats_long 9": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I want to buy a bike but need to know the financing options.",
+            "Chatbot: Let's go to the Check Financing Options section. Here are the financing options for our bikes.",
+            "User: Thanks! Can you show me the accessories for Model G?",
+            "Chatbot: Here are the accessories for Model G.",
+            "User: Also, can I read some customer reviews?",
+            "Chatbot: Here are the customer reviews for Model G.",
+            "User: What about service and maintenance info?",
+            "Chatbot: Here are the service and maintenance options for Model G.",
+            "Chatbot: Is there anything else you need?",
+            "User: No, that's all for now."
+        ],
+        "nodes_visited": [
+            "Check Financing Options",
+            "Accessory Shop",
+            "Customer Reviews",
+            "Service & Maintenance Info",
+            "End of Journey"
+        ]
+    },
+    "chats_long 10": {
+        "context": [
+            "Chatbot: Hi! How can I help you today?",
+            "User: I'm looking for information on your bike insurance.",
+            "Chatbot: Let's go to the Bike Insurance Information section. Here is the bike insurance information.",
+            "User: Thanks! Also, can you show me the latest promotions?",
+            "Chatbot: Here are the latest promotions and offers.",
+            "User: Can I also see the latest blog updates?",
+            "Chatbot: Here are the latest blog posts and updates.",
+            "User: What about the events or community gatherings?",
+            "Chatbot: Here are the upcoming events and community gatherings.",
+            "Chatbot: Anything else you need?",
+            "User: No, that's all for now."
+        ],
+        "nodes_visited": [
+            "Bike Insurance Information",
+            "Promotions & Offers",
+            "Blog/News/Updates",
+            "Events & Community",
+            "End of Journey"
+        ]
+    }
+,
+    "chats 35": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I'm looking for some biking events.",
+            "Chatbot: Let's check out the Events & Community section. Here are some upcoming events.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model C, Model D.",
+            "User: Show me Model C.",
+            "Chatbot: Here are the details of Model C. Would you like to compare it with Model D?",
+            "User: Yes, please.",
+            "Chatbot: Here's a comparison between Model C and Model D. Would you like to request a quote for Model C?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Requesting a quote for Model C. Would you like to see the bike insurance information?",
+            "User: Yes, please.",
+            "Chatbot: Here is the bike insurance information for Model C."
+        ],
+        "nodes_visited": [
+            "Events & Community",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Request a Quote",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chats 36": {
+        "context": [
+            "Chatbot: Hello! How can I help you today?",
+            "User: I'm interested in your latest bike models.",
+            "Chatbot: Let's go to the Bike Models Overview. Here are some options: Model X, Model Y.",
+            "User: Show me Model X.",
+            "Chatbot: Here are the details of Model X. Would you like to customize Model X?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see the financing options for Model X?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model X. Would you like to request a quote?",
+            "User: Yes, I'd like a quote.",
+            "Chatbot: Requesting a quote for Model X. Would you like to see the accessory shop?",
+            "User: Yes, show me the accessories.",
+            "Chatbot: Here are the accessories for Model X."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    },
+    "chats 37": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I'm looking to buy a bike and need some guidance.",
+            "Chatbot: Let's head to the Bike Models Overview. Here are some options: Model A, Model B.",
+            "User: Show me Model B.",
+            "Chatbot: Here are the details of Model B. Would you like to customize Model B?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model B?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model B. Would you like to request a quote?",
+            "User: Yes, please.",
+            "Chatbot: Requesting a quote for Model B. Would you like to see the service and maintenance info?",
+            "User: Yes, show me the info.",
+            "Chatbot: Here is the Service & Maintenance Info for Model B."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Service & Maintenance Info",
+            "End of Journey"
+        ]
+    },
+    "chats 38": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I'm here to find a dealer for your bikes.",
+            "Chatbot: Let's go to the Find a Dealer section. Here are some dealers near you.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model C, Model D.",
+            "User: Show me Model C.",
+            "Chatbot: Here are the details of Model C. Would you like to customize Model C?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model C?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model C. Would you like to request a quote?",
+            "User: Yes, I'd like a quote.",
+            "Chatbot: Requesting a quote for Model C. Would you like to see the bike insurance information?",
+            "User: Yes, please.",
+            "Chatbot: Here is the bike insurance information for Model C."
+        ],
+        "nodes_visited": [
+            "Find a Dealer",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chats 39": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I'm looking for bike insurance information.",
+            "Chatbot: Let's move to the Bike Insurance Information section.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model E, Model F.",
+            "User: Show me Model E.",
+            "Chatbot: Here are the details of Model E. Would you like to customize Model E?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model E?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model E. Would you like to see the service and maintenance info?",
+            "User: Yes, please.",
+            "Chatbot: Here is the Service & Maintenance Info for Model E."
+        ],
+        "nodes_visited": [
+            "Bike Insurance Information",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Service & Maintenance Info",
+            "End of Journey"
+        ]
+    },
+    "chats 40": {
+        "context": [
+            "Chatbot: Hi! How can I help you today?",
+            "User: I'm interested in checking out some bike models.",
+            "Chatbot: Let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+            "User: Show me Model A.",
+            "Chatbot: Here are the details of Model A. Would you like to customize Model A?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model A?",
+            "User: Yes, show me the options.",
+            "Chatbot: Here are the financing options for Model A. Would you like to request a quote?",
+            "User: Yes, please.",
+            "Chatbot: Requesting a quote for Model A. Would you like to see the accessory shop?",
+            "User: Yes, show me the accessories.",
+            "Chatbot: Here are the accessories for Model A."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    },
+    "chats 41": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I'm looking for some biking events.",
+            "Chatbot: Let's check out the Events & Community section. Here are some upcoming events.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model C, Model D.",
+            "User: Show me Model C.",
+            "Chatbot: Here are the details of Model C. Would you like to compare it with Model D?",
+            "User: Yes, please.",
+            "Chatbot: Here's a comparison between Model C and Model D. Would you like to request a quote for Model C?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Requesting a quote for Model C. Would you like to see the bike insurance information?",
+            "User: Yes, please.",
+            "Chatbot: Here is the bike insurance information for Model C."
+        ],
+        "nodes_visited": [
+            "Events & Community",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Request a Quote",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chats 42": {
+        "context": [
+            "Chatbot: Hello! How can I help you today?",
+            "User: I'm interested in your latest bike models.",
+            "Chatbot: Let's go to the Bike Models Overview. Here are some options: Model X, Model Y.",
+            "User: Show me Model X.",
+            "Chatbot: Here are the details of Model X. Would you like to customize Model X?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see the financing options for Model X?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model X. Would you like to request a quote?",
+            "User: Yes, I'd like a quote.",
+            "Chatbot: Requesting a quote for Model X. Would you like to see the accessory shop?",
+            "User: Yes, show me the accessories.",
+            "Chatbot: Here are the accessories for Model X."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    },
+    "chats 43": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I'm looking to buy a bike and need some guidance.",
+            "Chatbot: Let's head to the Bike Models Overview. Here are some options: Model A, Model B.",
+            "User: Show me Model B.",
+            "Chatbot: Here are the details of Model B. Would you like to customize Model B?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model B?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model B. Would you like to request a quote?",
+            "User: Yes, please.",
+            "Chatbot: Requesting a quote for Model B. Would you like to see the service and maintenance info?",
+            "User: Yes, show me the info.",
+            "Chatbot: Here is the Service & Maintenance Info for Model B."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Service & Maintenance Info",
+            "End of Journey"
+        ]
+    },
+    "chats 44": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I'm here to find a dealer for your bikes.",
+            "Chatbot: Let's go to the Find a Dealer section. Here are some dealers near you.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model C, Model D.",
+            "User: Show me Model C.",
+            "Chatbot: Here are the details of Model C. Would you like to customize Model C?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model C?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model C. Would you like to request a quote?",
+            "User: Yes, I'd like a quote.",
+            "Chatbot: Requesting a quote for Model C. Would you like to see the bike insurance information?",
+            "User: Yes, please.",
+            "Chatbot: Here is the bike insurance information for Model C."
+        ],
+        "nodes_visited": [
+            "Find a Dealer",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chats 45": {
+        "context": [
+            "Chatbot: Hi! How can I assist you today?",
+            "User: I'm looking for bike insurance information.",
+            "Chatbot: Let's move to the Bike Insurance Information section.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure, let's move to the Bike Models Overview. Here are some options: Model E, Model F.",
+            "User: Show me Model E.",
+            "Chatbot: Here are the details of Model E. Would you like to customize Model E?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model E?",
+            "User: Yes, please.",
+            "Chatbot: Here are the financing options for Model E. Would you like to see the service and maintenance info?",
+            "User: Yes, please.",
+            "Chatbot: Here is the Service & Maintenance Info for Model E."
+        ],
+        "nodes_visited": [
+            "Bike Insurance Information",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Service & Maintenance Info",
+            "End of Journey"
+        ]
+    },
+    "chats 46": {
+        "context": [
+            "Chatbot: Hi! How can I help you today?",
+            "User: I'm interested in checking out some bike models.",
+            "Chatbot: Let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+            "User: Show me Model A.",
+            "Chatbot: Here are the details of Model A. Would you like to customize Model A?",
+            "User: Yes, I'd like that.",
+            "Chatbot: Let's move to the Build & Customize section. Would you like to see financing options for Model A?",
+            "User: Yes, show me the options.",
+            "Chatbot: Here are the financing options for Model A. Would you like to request a quote?",
+            "User: Yes, please.",
+            "Chatbot: Requesting a quote for Model A. Would you like to see the accessory shop?",
+            "User: Yes, show me the accessories.",
+            "Chatbot: Here are the accessories for Model A."
+        ],
+        "nodes_visited": [
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Build & Customize",
+            "Check Financing Options",
+            "Request a Quote",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    },
+    "chat_1": {
+        "context": [
+            "Chatbot: Hi there! How can I assist you today?",
+            "User: I'm interested in upcoming biking events.",
+            "Chatbot: Let's check out the Events & Community section. Here are some upcoming events.",
+            "User: Thanks! Can you show me the bike models overview?",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model A, Model B.",
+            "User: Show me Model A.",
+            "Chatbot: Here are the details of Model A. Would you like to compare it with Model B?",
+            "User: Yes, please.",
+            "Chatbot: Here's a comparison between Model A and Model B. How about reading some customer reviews?",
+            "User: Yes, show me the Customer Reviews for Model A.",
+            "Chatbot: Here are some customer reviews for Model A. Interested in customizing the bike?",
+            "User: Yes, I want to see the Build & Customize options.",
+            "Chatbot: Here are the customization options for Model A. Would you like to request a quote?",
+            "User: Yes, request a quote for me.",
+            "Chatbot: Requesting a quote for Model A. Would you like to check the accessory shop?",
+            "User: Yes, please.",
+            "Chatbot: Here is the Accessory Shop.",
+            "User: Thanks. What about bike insurance?",
+            "Chatbot: Here is the information on Bike Insurance."
+        ],
+        "nodes_visited": [
+            "Events & Community",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Customer Reviews",
+            "Build & Customize",
+            "Request a Quote",
+            "Accessory Shop",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chat_2": {
+        "context": [
+            "Chatbot: Hello! How can I help you today?",
+            "User: I want to read some news about biking.",
+            "Chatbot: Let's check out the Blog/News/Updates section. Here are some recent articles.",
+            "User: Great! Can you show me the bike models overview?",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model C, Model D.",
+            "User: Show me Model C.",
+            "Chatbot: Here are the details of Model C. Would you like to compare it with Model D?",
+            "User: Yes, please.",
+            "Chatbot: Here's a comparison between Model C and Model D. How about reading some customer reviews?",
+            "User: Yes, show me the Customer Reviews for Model C.",
+            "Chatbot: Here are some customer reviews for Model C. Interested in customizing the bike?",
+            "User: Yes, I want to see the Build & Customize options.",
+            "Chatbot: Here are the customization options for Model C. Would you like to request a quote?",
+            "User: Yes, request a quote for me.",
+            "Chatbot: Requesting a quote for Model C. Would you like to check the financing options?",
+            "User: Yes, show me the financing options.",
+            "Chatbot: Here are the Check Financing Options for Model C.",
+            "User: Can I also see the accessory shop?",
+            "Chatbot: Sure, here is the Accessory Shop."
+        ],
+        "nodes_visited": [
+            "Blog/News/Updates",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Customer Reviews",
+            "Build & Customize",
+            "Request a Quote",
+            "Check Financing Options",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    },
+    "chat_3": {
+        "context": [
+            "Chatbot: Hi! What can I help you with today?",
+            "User: I'm looking for biking events.",
+            "Chatbot: Let's check out the Events & Community section. Here are some upcoming events.",
+            "User: Thanks! Can you show me the latest bike models?",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model E, Model F.",
+            "User: Model E looks good. Can you show me more details?",
+            "Chatbot: Here are the specifications of Model E. Would you like to compare it with another model?",
+            "User: Yes, compare Model E with Model F.",
+            "Chatbot: Comparing Model E and Model F. How about reading some customer reviews?",
+            "User: Yes, show me the Customer Reviews for Model E.",
+            "Chatbot: Here are some customer reviews for Model E. Interested in customizing the bike?",
+            "User: Yes, I want to see the Build & Customize options.",
+            "Chatbot: Here are the customization options for Model E. Would you like to request a quote?",
+            "User: Yes, request a quote for me.",
+            "Chatbot: Requesting a quote for Model E. Would you like to check the accessory shop?",
+            "User: Yes, please.",
+            "Chatbot: Here is the Accessory Shop.",
+            "User: What about bike insurance?",
+            "Chatbot: Here is the information on Bike Insurance."
+        ],
+        "nodes_visited": [
+            "Events & Community",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Customer Reviews",
+            "Build & Customize",
+            "Request a Quote",
+            "Accessory Shop",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chat_4": {
+        "context": [
+            "Chatbot: Hello! How can I assist you today?",
+            "User: I want to read some biking news.",
+            "Chatbot: Let's check out the Blog/News/Updates section. Here are some recent articles.",
+            "User: Great! Can you show me the bike models overview?",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model G, Model H.",
+            "User: Show me Model G.",
+            "Chatbot: Here are the details of Model G. Would you like to compare it with Model H?",
+            "User: Yes, please.",
+            "Chatbot: Here's a comparison between Model G and Model H. How about reading some customer reviews?",
+            "User: Yes, show me the Customer Reviews for Model G.",
+            "Chatbot: Here are some customer reviews for Model G. Interested in customizing the bike?",
+            "User: Yes, I want to see the Build & Customize options.",
+            "Chatbot: Here are the customization options for Model G. Would you like to request a quote?",
+            "User: Yes, request a quote for me.",
+            "Chatbot: Requesting a quote for Model G. Would you like to check the financing options?",
+            "User: Yes, show me the financing options.",
+            "Chatbot: Here are the Check Financing Options for Model G.",
+            "User: Can I also see the accessory shop?",
+            "Chatbot: Sure, here is the Accessory Shop.",
+            "User: What about bike insurance?",
+            "Chatbot: Here is the information on Bike Insurance."
+        ],
+        "nodes_visited": [
+            "Blog/News/Updates",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Customer Reviews",
+            "Build & Customize",
+            "Request a Quote",
+            "Check Financing Options",
+            "Accessory Shop",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chat_5": {
+        "context": [
+            "Chatbot: Hi! What can I help you with today?",
+            "User: I'm looking for biking events.",
+            "Chatbot: Let's check out the Events & Community section. Here are some upcoming events.",
+            "User: Thanks! Can you show me the latest bike models?",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model I, Model J.",
+            "User: Model I looks good. Can you show me more details?",
+            "Chatbot: Here are the specifications of Model I. Would you like to compare it with another model?",
+            "User: Yes, compare Model I with Model J.",
+            "Chatbot: Comparing Model I and Model J. How about reading some customer reviews?",
+            "User: Yes, show me the Customer Reviews for Model I.",
+            "Chatbot: Here are some customer reviews for Model I. Interested in customizing the bike?",
+            "User: Yes, I want to see the Build & Customize options.",
+            "Chatbot: Here are the customization options for Model I. Would you like to request a quote?",
+            "User: Yes, request a quote for me.",
+            "Chatbot: Requesting a quote for Model I. Would you like to check the accessory shop?",
+            "User: Yes, please.",
+            "Chatbot: Here is the Accessory Shop.",
+            "User: What about bike insurance?",
+            "Chatbot: Here is the information on Bike Insurance."
+        ],
+        "nodes_visited": [
+            "Events & Community",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Customer Reviews",
+            "Build & Customize",
+            "Request a Quote",
+            "Accessory Shop",
+            "Bike Insurance Information",
+            "End of Journey"
+        ]
+    },
+    "chat_6": {
+        "context": [
+            "Chatbot: Hello! How can I assist you today?",
+            "User: I want to read some biking news.",
+            "Chatbot: Let's check out the Blog/News/Updates section. Here are some recent articles.",
+            "User: Great! Can you show me the bike models overview?",
+            "Chatbot: Sure! Let's move to the Bike Models Overview. Here are some options: Model K, Model L.",
+            "User: Show me Model K.",
+            "Chatbot: Here are the details of Model K. Would you like to compare it with Model L?",
+            "User: Yes, please.",
+            "Chatbot: Here's a comparison between Model K and Model L. How about reading some customer reviews?",
+            "User: Yes, show me the Customer Reviews for Model K.",
+            "Chatbot: Here are some customer reviews for Model K. Interested in customizing the bike?",
+            "User: Yes, I want to see the Build & Customize options.",
+            "Chatbot: Here are the customization options for Model K. Would you like to request a quote?",
+            "User: Yes, request a quote for me.",
+            "Chatbot: Requesting a quote for Model K. Would you like to check the financing options?",
+            "User: Yes, show me the financing options.",
+            "Chatbot: Here are the Check Financing Options for Model K.",
+            "User: Can I also see the accessory shop?",
+            "Chatbot: Sure, here is the Accessory Shop."
+        ],
+        "nodes_visited": [
+            "Blog/News/Updates",
+            "Bike Models Overview",
+            "Specific Bike Model Page",
+            "Compare Models",
+            "Customer Reviews",
+            "Build & Customize",
+            "Request a Quote",
+            "Check Financing Options",
+            "Accessory Shop",
+            "End of Journey"
+        ]
+    }
+}

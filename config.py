@@ -3,56 +3,48 @@ import argparse
 
 module_path = path.dirname(path.abspath(__file__))
 
-from utils.dataset import load_textual_mts, load_textual_sc, load_textual_bgm, load_textual_sp
+from utils.dataset import load_textual_sp
 from utils.dataset_preprocess import *
 
 
 load_dataset = {
-    'sc': load_textual_sc,
-    'mts': load_textual_mts,
-    'sp': load_textual_sp,
-    'bgm': load_textual_bgm,
+
+    'sp': load_textual_sp
 }
 
 
 preprocess_original_dataset = {
-    'sc': preprocess_function_original_sc,
-    'mts': preprocess_function_original_mts,
-    'sp': preprocess_function_original_sp,
-    'bgm': preprocess_function_original_bgm,
+
+    'sp': preprocess_function_original_sp
 }
 
 
 preprocess_train_dataset = {
-    'sc': preprocess_function_generator_sc,
-    'mts': preprocess_function_generator_mts,
-    'sp': preprocess_function_generator_sp,
-    'bgm': preprocess_function_generator_bgm,
+
+    'sp': preprocess_function_generator_sp
 }
 
 preprocess_test_dataset = {
-    'sc': preprocess_test_function_generator_sc,
-    'mts': preprocess_test_function_generator_mts,
-    'sp': preprocess_test_function_generator_sp,
-    'bgm': preprocess_test_function_generator_bgm,
+
+    'sp': preprocess_test_function_generator_sp
 }
 
 instruction_len = {
-    'sp': 50,
+    'sp': 450,
     'sc': 45,
     'bgm': 35,
     'mts': 50,
 }
 
 original_len = {
-    'sp': 60,
+    'sp': 450,
     'sc': 60,
     'bgm': 60,
     'mts': 90,
 }
 
 task_level = {
-    'sp': 'pair',
+    'sp': 'node',
     'sc': 'node',
     'bgm': 'graph',
     'mts': 'node',
@@ -61,13 +53,13 @@ task_level = {
 
 def parse_args_llama():
     parser = argparse.ArgumentParser(description="GraphLLM")
-
+    parser.add_argument("--prediction_type", type=str, default="next_node",help='next_node or current_node')
     parser.add_argument("--project", type=str, default="project_GraphLLM")
     parser.add_argument("--exp_num", type=int, default=1)
-    parser.add_argument("--model_name", type=str, default='LLaMA-7B-2')
+    parser.add_argument("--model_name", type=str, default='Meta-Llama-3.1-8B')
 
     parser.add_argument("--dataset", type=str, default='mol')
-    parser.add_argument("--lr", type=float, default=5e-5)
+    parser.add_argument("--lr", type=float, default=1e-4)
     parser.add_argument("--wd", type=float, default=0.1)
 
 
@@ -82,7 +74,7 @@ def parse_args_llama():
 
 
     # Model Training
-    parser.add_argument("--batch_size", type=int, default=16)
+    parser.add_argument("--batch_size", type=int, default=4)
     parser.add_argument("--grad_steps", type=int, default=2)
 
 
@@ -90,13 +82,13 @@ def parse_args_llama():
     parser.add_argument("--num_epochs", type=int, default=15)
 
 
-    parser.add_argument("--warmup_epochs", type=float, default=1)
+    parser.add_argument("--warmup_epochs", type=float, default=5)
 
     # RRWP
     parser.add_argument("--rrwp", type=int, default=8)
 
     # Inference
-    parser.add_argument("--eval_batch_size", type=int, default=32)
+    parser.add_argument("--eval_batch_size", type=int, default=80)
 
     args = parser.parse_args()
     return args
